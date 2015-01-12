@@ -1,0 +1,10 @@
+<h1>Is it a square?<h1>
+
+  <h5> Width: <%=rectangle.width() %></h5>
+  <h5> Length: <%=rectangle.length() %></h5>
+
+  <% if @rectangle.square?() %> #the <%= %> prints what's between those tags
+    <h5>It is a square!</h5>
+  <% else %>
+    <h5>It is not a square!</h5>
+  <% end %>
